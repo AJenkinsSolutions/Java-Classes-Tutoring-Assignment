@@ -1,7 +1,14 @@
 package com.tutoring.classes;
 
 import java.util.Scanner;
-
+/**
+ * Television Driver
+ * @author alexJenkins
+ * @course Java Full Stack Development 
+ * @section Core-Java
+ * @instructor Ms.Lewis
+ * @date 12/03/22
+ */
 public class TelevisionDemo {
 
 	public static void main(String[] args) {

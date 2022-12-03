@@ -2,6 +2,9 @@ package com.tutoring.classes;
 /**
  * The purpose of this class is top model a television
  * @author alexJenkins
+ * @course Java Full Stack Development 
+ * @section Core-Java
+ * @instructor Ms.Lewis
  * @date 12/03/22
  */
 public class Television {
