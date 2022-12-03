@@ -19,7 +19,7 @@ public class StringBuilderBufferLab {
 		/**
 		 * Differences
 		 * @StringBuffer 
-		 * Synchronized: Multiple can threads can access the string simultaneously
+		 * Synchronized: Multiple threads can access the string simultaneously
 		 * Thread safe.
 		 * Less efficient: Because is it synchronized and thread safe it is slower because it has to lock onto the objects.
 		 * @stringBuilder 
@@ -57,21 +57,10 @@ public class StringBuilderBufferLab {
 			MyStringBuilder sb1 = new MyStringBuilder("HELLOO");
 			MyStringBuilder sb2 = new MyStringBuilder("world");
 
+
 			
 			
-			sb1 = sb1.append(sb2);
-			System.out.println(sb1);
 			
-			sb1 = sb1.append(10);
-			System.out.println(sb1);
-			
-			System.out.println(sb1.length());
-			
-			System.out.println(sb1.charAt(4));
-			
-			System.out.println(sb1.toLowerCase());
-			
-			System.out.println(sb1.substring(2, 4));
 	}
 	
 }
