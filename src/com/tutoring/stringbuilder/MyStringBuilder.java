@@ -39,11 +39,11 @@ public class MyStringBuilder {
 			return new MyStringBuilder(this.string.substring(begin, end));
 		}
 		
-		
 		public String getString() {
 			return string;
 		}
 
+		
 		@Override
 		public String toString() {
 			return  string;

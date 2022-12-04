@@ -1,6 +1,6 @@
 package com.tutoring.classes;
 /**
- * The purpose of this class is top model a television
+ * The purpose of this class is to model a television
  * @author alexJenkins
  * @course Java Full Stack Development 
  * @section Core-Java

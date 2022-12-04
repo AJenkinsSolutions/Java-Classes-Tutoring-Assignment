@@ -56,11 +56,6 @@ public class StringBuilderBufferLab {
 		//7
 			MyStringBuilder sb1 = new MyStringBuilder("HELLOO");
 			MyStringBuilder sb2 = new MyStringBuilder("world");
-
-
-			
-			
-			
 	}
 	
 }
