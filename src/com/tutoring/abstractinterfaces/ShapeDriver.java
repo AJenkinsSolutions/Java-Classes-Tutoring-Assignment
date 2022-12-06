@@ -57,11 +57,24 @@ public class ShapeDriver {
 		y.add(77);
 		y.add(82);
 		y.add(12);
+		
+		
 		Triangle.sort(y);
+		
+		System.out.println(y);
 		System.out.println();
 		//3
 		Triangle obj2 = new Triangle(6, 6, 6, "Green", true);
 		System.out.println("GeometricObect Max method results: " + GeometricObject.max(obj1, obj2));
+		
+		//3a
+		Circle obj3 = new Circle(3,"red", true);
+		
+		System.out.println(obj3.calculateArea());
+		
+		Rectangle obj4 = new Rectangle(3, 4);
+		obj4.calculateArea();
+		obj4.calculatePerimeter();	//3b
 	}
 
 }

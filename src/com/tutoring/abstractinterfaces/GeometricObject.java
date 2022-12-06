@@ -6,7 +6,8 @@ package com.tutoring.abstractinterfaces;
  */
 public abstract class GeometricObject implements Comparable<GeometricObject> {
 	
-	
+	protected final double pi = Math.PI;
+		
 	
 	protected double sideA;
 	protected double sideB;
